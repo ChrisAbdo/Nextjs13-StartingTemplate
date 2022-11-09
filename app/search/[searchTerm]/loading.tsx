@@ -1,7 +1,7 @@
 import React from "react";
 
 function Loading() {
-  return <div>Loading search Results</div>;
+  return <progress className="progress w-56"></progress>;
 }
 
 export default Loading;
